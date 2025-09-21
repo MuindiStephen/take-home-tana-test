@@ -23,4 +23,4 @@
 
 #### How to run your code
 - In the root of the project folder, open your terminal and cd src to navigate to the src directory `PS D:\take-home-tana-test\src> `
-- Then run **java (filename.java)** 
+- Then run **java (filename.java)**  for example; `PS D:\take-home-tana-test\src>java Question1_GetLongestString.java `
