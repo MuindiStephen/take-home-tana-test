@@ -43,6 +43,6 @@ public class Question4_threeMostCommonStringsInSentence {
     public static void main(String[] args) {
         String sentence = "hi there care to discuss algorithm basis or how to solve algorithm or";
         List<String> result = findThreeMostCommonStringsInSentence(sentence);
-        System.out.println(resul -t);
+        System.out.println(result);
     }
 }
