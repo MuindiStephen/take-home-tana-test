@@ -21,4 +21,6 @@
 #### Question5_linkedListRotation
 - First of all calculate the length of the string, I manually drew the linked list to make it circular, then breaks the circle at the right point to moving each element in the list n times to the right.
 
-### 
+#### How to run your code
+- In the root of the project folder, open your terminal and cd src to navigate to the src directory `PS D:\take-home-tana-test\src> `
+- Then run **java (filename.java)** 
