@@ -2,6 +2,12 @@ import java.util.*;
 
 public class Question4_threeMostCommonStringsInSentence {
 
+    public static void main(String[] args) {
+        String sentence = "hi there care to discuss algorithm basis or how to solve algorithm or";
+        List<String> outputThreeCommonStrings = findThreeMostCommonStringsInSentence(sentence);
+        System.out.println(outputThreeCommonStrings);
+    }
+
     public static List<String> findThreeMostCommonStringsInSentence(String sentence) {
         // Give the sentence
         // "hi there care to discuss algorithm basis or how to solve algorithm or"
@@ -27,7 +33,7 @@ public class Question4_threeMostCommonStringsInSentence {
 
         pq.addAll(freqMap.entrySet());
 
-        // Fins the top three most appearing strings
+        // Finds the top three most appearing strings
         List<String> topWords = new ArrayList<>();
         int count = 0;
         while (!pq.isEmpty() && count < 3) {
@@ -38,11 +44,5 @@ public class Question4_threeMostCommonStringsInSentence {
         // And finally sort them alphabetically
         Collections.sort(topWords);
         return topWords;
-    }
-
-    public static void main(String[] args) {
-        String sentence = "hi there care to discuss algorithm basis or how to solve algorithm or";
-        List<String> result = findThreeMostCommonStringsInSentence(sentence);
-        System.out.println(result);
     }
 }

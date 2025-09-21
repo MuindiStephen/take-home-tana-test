@@ -6,7 +6,7 @@ public class Question3_twoClosestMinimumDistance {
         System.out.println("Distance between the two closest (nearest) minimums is : " + distanceBetweenTwoClosestMinimums(arr));
     }
 
-    private static Integer distanceBetweenTwoClosestMinimums(int[] arr) {
+    static Integer distanceBetweenTwoClosestMinimums(int[] arr) {
         int n = arr.length;
 
         // A for loop to find the minimum int value in the array
